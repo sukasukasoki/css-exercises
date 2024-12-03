@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  /* Here's where the flex start */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .logo {
@@ -14,6 +20,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* here's where flex start */
+  display: flex;
+  flex-direction: row;
 }
 
 a {
